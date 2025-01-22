@@ -1,3 +1,8 @@
+/**
+ * 这里的Demo练习 来自官网
+ * https://github.com/SBoudrias/Inquirer.js/tree/main?tab=readme-ov-file
+ */
+
 import { input, confirm } from "@inquirer/prompts";
 import chalk from 'chalk';
 
