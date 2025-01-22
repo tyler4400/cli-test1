@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "bin/index.js",
   "bin": {
-    "imooc-test": "bin/index.js"
+    "imooc-test": "bin/index.js",
+    "comm-test": "bin/commander.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +14,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "commander": "^13.1.0",
     "yargs": "^17.7.2"
   }
 }
