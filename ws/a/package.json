@@ -1,13 +1,16 @@
 {
   "name": "@tyler4400/test-a",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"this is a\""
   },
   "author": "",
   "license": "ISC",
   "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "chalk": "^5.4.1"
   }

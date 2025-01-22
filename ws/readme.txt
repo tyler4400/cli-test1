@@ -6,6 +6,8 @@
 
 2. 子目录(a或b)是没有node_modules目录的，全都在父目录下统一管理。
 当子目录使用某个库时， 它会一级一级向上查找
+在父目录下， 给子目录安装库 Npm i {some-package} -w {a}
+这里是-w，而不是-ws
 
 3. 当修改了 package 的内容后（如：package.json 中的 name）
 npm install --workspaces /  -ws
